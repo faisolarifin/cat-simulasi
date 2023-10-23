@@ -61,7 +61,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="jawaban-<?= $row["pk_soal"] ?>" id="Ejawaban-<?= $row["pk_soal"] ?>" value="E" <?= $row['jawaban'] == 'E' ? 'checked' : '' ?>>
                                 <label class="form-check-label <?= $row['jawaban'] == 'E' ? ' bg-success text-white' : '' ?>" for="Ejawaban-<?= $row["pk_soal"] ?>">
-                                    <?= $row['pil_d'] ?>
+                                    <?= $row['pil_e'] ?>
                                 </label>
                             </div>
                         </div>

@@ -127,7 +127,7 @@
                                 </label>
                             </div>`;
             $cardBody.append($htmlElement);
-            // $cardBody.find(`input[name=jawaban][value="${question.jawaban}"]`).prop('checked', true)
+            $cardBody.find(`input[name=jawaban][value="${question.jawaban}"]`).prop('checked', true)
         }
 
         $(".prev-btn").click(function() {
